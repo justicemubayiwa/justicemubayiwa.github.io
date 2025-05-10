@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #111;
+  padding: 0 20px;
+}
+
+a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+
+header.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #111, #333);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #00ffcc;
+  color: #111;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about, .services, .social {
+  background-color: #1a1a1a;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  background-color: #000;
+  margin-top: 40px;
+}
